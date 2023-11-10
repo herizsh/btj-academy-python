@@ -453,3 +453,5 @@ Pada contoh diatas,
 - `with open(nama\_berkas, 'r') as file: membuka berkas "contoh.txt" dalam mode baca.
 - Di dalam blok with, isi berkas dibaca dengan file.read() dan dicetak.
 - Setelah keluar dari blok with, berkas akan ditutup secara otomatis. Tidak perlu lagi memanggil file.close().
+
+## TODO: Setup Python Development Environment
