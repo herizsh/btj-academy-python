@@ -149,7 +149,7 @@ else:
 
 Tipe data menentukan jenis data yang dapat disimpan oleh variabel. Tipe data yang umum digunakan di Python meliputi int, float, str dan bool.
 
-1. Tipe Data Numerik
+#### 1. Tipe Data Numerik
 
 Tipe data numerik seperti bilangan bulat (`int`) dan pecahan (`float`) memungkinkan operasi aritmatika.
 
@@ -175,7 +175,7 @@ print("Pembagian:", bagi)
 
 ```
 
-1. Tipe Data String
+#### 2. Tipe Data String
 
 Tipe data string (`str`) memungkinkan penyimpanan data teks dan memiliki berbagai metode untuk manipulasi.
 
@@ -196,7 +196,7 @@ print("Kata pertama:", kata[0])
 
 ```
 
-1. Tipe Data Boolean
+#### 3. Tipe Data Boolean
 
 Tipe data boolean (`bool`) dapat memiliki nilai `True` atau `False` dan sering digunakan dalam kondisional.
 
