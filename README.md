@@ -273,7 +273,7 @@ print("Data Siswa setelah ditambahkan nilai:", siswa)
 ## Latihan
 
 1. [https://www.codecademy.com/courses/learn-python-3](https://www.codecademy.com/courses/learn-python-3)
-2. [Grade Mahasiswa](question_grade_students[[.md)
+2. [Grade Mahasiswa](question_grade_students.md)
 3. [Graduates](question_graduates.md)
 4. [Pengunjung Bar](question_bar.md)
 5. [Bermain dengan string](question_string.md)
