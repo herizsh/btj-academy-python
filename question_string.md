@@ -27,3 +27,5 @@ Kamu memiliki informasi tentang sebuah buku:
 judul = "Python Programming", penulis = "John Doe", tahun = 2022. 
 
 Buatlah satu string yang menggunakan formatting f-string untuk mencetak informasi buku tersebut dalam format: "Python Programming, ditulis oleh John Doe pada tahun 2022." Tampilkan string ini di console.
+
+## TODO: Setup Python Development Environment
