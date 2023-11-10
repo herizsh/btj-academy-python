@@ -49,30 +49,29 @@ Simbol-simbol dalam Flowchart
 
 Simbol Awal dan Akhir:
 
-![Start_End.png](Start_End.png)
+![start_end.png](start_end.png)
 
 Simbol persegi panjang dengan lengkungan menggambarkan langkah awal dan akhir dari algoritma.
 
 Input / Output:
 
-![Input_Output.png](Input_Output.png)
+![input_output.png](input_output.png)
 
 Simbol ini, berbentuk jajar genjang, mewakili proses input / output seperti memberikan nilai pada suatu variabel atau menampilkan value pada suatu variable
 
 Proses:
 
-![Process.png](Process.png)
+![process.png](process.png)
 
 Simbol ini, berbentuk persegi panjang, mewakili operasi atau tindakan yang dilakukan, seperti perhitungan matematika atau manipulasi data.
 
 Keputusan / Conditional:
 
-![Conditional.png](Conditional.png)
+![conditional.png](conditional.png)
 
 Berbentuk diamond dan menunjukkan percabangan logika, seperti kondisi "jika-atau".
 
 Aliran:
-
 
 ![arrow.png](arrow.png)
 
