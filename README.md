@@ -286,7 +286,7 @@ Perulangan adalah konsep penting dalam pemrograman yang memungkinkan kita untuk 
 
 `for` loop digunakan untuk melakukan iterasi (pengulangan) melalui urutan (seperti list, tuple, string, dll.) atau objek yang dapat diiterasi.
 
-Contoh:
+Contoh 1:
 
 ```python
 # Menggunakan for loop untuk mencetak elemen dalam list
@@ -296,6 +296,24 @@ for buah_satuan in buah:
 ```
 
 Di dalam contoh di atas, `for` loop digunakan untuk mengiterasi melalui setiap elemen dalam list `buah` dan mencetak setiap elemen.
+
+Contoh 2:
+
+```python
+# Menggunakan for loop untuk mencetak angka dari sebuah range
+for i in range(5):
+    print(i, end=' ')  # Output: 0 1 2 3 4
+
+
+# Menggunakan for loop untuk mencetak angka dari sebuah range dengan batas awal dan akhir
+for i in range(2, 8):
+    print(i, end=' ')  # Output: 2 3 4 5 6 7
+
+
+# Menggunakan for loop untuk mencetak angka dari sebuah range dengan batas awal dan akhir dan step
+for i in range(1, 10, 2):
+    print(i, end=' ')  # Output: 1 3 5 7 9
+```
 
 ### `while` Loop
 
@@ -313,23 +331,6 @@ while angka <= 5:
 ```
 
 Pada contoh di atas, `while` loop akan terus berjalan selama `angka` kurang dari atau sama dengan 5. Setiap iterasi, nilai `angka` akan dicetak, dan nilai `angka` akan bertambah satu.
-
-### Perulangan Bersarang (Nested Loops)
-
-Perulangan bersarang adalah konsep di mana satu perulangan ditempatkan di dalam perulangan lain. Ini memungkinkan kita untuk melakukan pengulangan dalam pengulangan.
-
-Contoh:
-
-```python
-# Nested loops untuk membuat pola bintang segitiga
-tinggi = 5
-for baris in range(tinggi):
-    for kolom in range(baris + 1):
-        print("*", end="")
-    print()
-```
-
-Kode di atas menggunakan dua perulangan bersarang. Loop pertama mengatur iterasi melalui setiap baris, sementara loop kedua mengatur iterasi melalui setiap elemen/bintang di setiap baris.
 
 ## Function
 
@@ -378,6 +379,27 @@ def tambah(a, b):
 Fungsi `tambah` di atas menerima dua parameter `a` dan `b`, menjumlahkannya, dan mengembalikan hasil penjumlahan.
 
 Dengan menggunakan fungsi, Anda dapat membuat blok kode yang terorganisir, dapat dipanggil kembali, dan mengurangi repetisi.
+
+### Latihan Soal
+
+[Bermain dengan Perulangan & Function](question_loops.md)
+
+## Perulangan Bersarang (Nested Loops)
+
+Perulangan bersarang adalah konsep di mana satu perulangan ditempatkan di dalam perulangan lain. Ini memungkinkan kita untuk melakukan pengulangan dalam pengulangan.
+
+Contoh:
+
+```python
+# Nested loops untuk membuat pola bintang segitiga
+tinggi = 5
+for baris in range(tinggi):
+    for kolom in range(baris + 1):
+        print("*", end="")
+    print()
+```
+
+Kode di atas menggunakan dua perulangan bersarang. Loop pertama mengatur iterasi melalui setiap baris, sementara loop kedua mengatur iterasi melalui setiap elemen/bintang di setiap baris.
 
 ## Manipulasi File / Berkas
 
