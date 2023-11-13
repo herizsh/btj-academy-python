@@ -52,9 +52,7 @@ Tulis fungsi `konversi_suhu` yang dapat mengonversi suhu dari Celsius ke Fahrenh
 
 Buat fungsi `hitung_luas_lingkaran` yang menerima satu parameter, jari-jari lingkaran, dan mengembalikan luas lingkaran tersebut. Gunakan nilai π (pi) sebagai 3.14.
 
-## Pertanyaan 13
-
-Tulis fungsi `cetak_segitiga` yang menerima satu parameter, tinggi segitiga, dan mencetak pola segitiga siku-siku terbalik menggunakan karakter '*'.
+## Pertanyaan 13 [Removed]
 
 ## Pertanyaan 14
 
