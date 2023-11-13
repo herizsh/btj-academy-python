@@ -382,7 +382,8 @@ Dengan menggunakan fungsi, Anda dapat membuat blok kode yang terorganisir, dapat
 
 ### Latihan Soal
 
-[Bermain dengan Perulangan & Function](question_loops.md)
+- [Bermain dengan Perulangan & Function](question_loops.md)
+- [Inventory Management System](question_inventory.md)
 
 ## Perulangan Bersarang (Nested Loops)
 
