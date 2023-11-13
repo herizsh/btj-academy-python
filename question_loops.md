@@ -24,10 +24,6 @@ Buat program yang menggunakan loop **`while`** untuk menghitung faktorial dari s
 
 Buat program Python yang mengambil daftar angka **`num_list = [3,19,12,etc]`** sebagai input dan mengembalikan jumlah dari semua elemen menggunakan loop **`for`**.
 
-<!-- Functions -->
-
-Tentu, berikut adalah pertanyaan-pertanyaan dalam format Markdown:
-
 ## Pertanyaan 6
 
 Buatlah sebuah fungsi bernama `luas_persegi_panjang` yang menerima dua parameter, panjang dan lebar, dan mengembalikan luas dari persegi panjang tersebut.
@@ -67,5 +63,3 @@ Buat fungsi `jumlah_deret_aritmatika` yang menerima tiga parameter: `a` (elemen 
 ## Pertanyaan 15
 
 Tulis fungsi `check_prima` yang menerima satu parameter, bilangan bulat positif `num`, dan mengembalikan `True` jika `num` adalah bilangan prima, dan `False` jika sebaliknya.
-
-Silakan gunakan pertanyaan-pertanyaan ini sesuai dengan kebutuhan atau modifikasikan sesuai dengan preferensi Anda.
