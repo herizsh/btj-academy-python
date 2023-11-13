@@ -392,15 +392,27 @@ Perulangan bersarang adalah konsep di mana satu perulangan ditempatkan di dalam 
 Contoh:
 
 ```python
-# Nested loops untuk membuat pola bintang segitiga
-tinggi = 5
-for baris in range(tinggi):
-    for kolom in range(baris + 1):
-        print("*", end="")
+
+for outer_variable in outer_range:
+    # Outer loop statements
+
+    for inner_variable in inner_range:
+        # Inner loop statements
+
+    # Statements outside the inner loop but inside the outer loop
+
+# Outer loop for rows
+for i in range(1, 6):
+    # Inner loop for columns
+    for j in range(1, 3):
+        # Print the product of i and j, end with a tab
+        print(f"B: {i}, K {j}", end="\n")
+
+    # Move to the next line after each row is printed
     print()
 ```
 
-Kode di atas menggunakan dua perulangan bersarang. Loop pertama mengatur iterasi melalui setiap baris, sementara loop kedua mengatur iterasi melalui setiap elemen/bintang di setiap baris.
+Kode di atas menggunakan perulangan bersarang. Loop pertama mengatur iterasi melalui setiap baris, sementara loop kedua mengatur iterasi melalui setiap elemen di setiap baris.
 
 ## Manipulasi File / Berkas
 
@@ -475,5 +487,67 @@ Pada contoh diatas,
 - `with open(nama\_berkas, 'r') as file: membuka berkas "contoh.txt" dalam mode baca.
 - Di dalam blok with, isi berkas dibaca dengan file.read() dan dicetak.
 - Setelah keluar dari blok with, berkas akan ditutup secara otomatis. Tidak perlu lagi memanggil file.close().
+
+Membaca Berkas Menjadi Per Baris
+
+Isi contoh.txt:
+
+```txt
+Baris 1
+Baris 2
+Baris 3
+```
+
+```python
+with open("contoh.txt", "r") as file:
+    lines = file.readlines() # Membaca file line per line
+
+    for line in lines:
+        print(line.strip())
+    
+    print("-----")
+
+    print(lines[1])
+
+    print("-----")
+    
+    lines.pop(1)
+
+    for line in lines:
+        print(line.strip())
+        
+    print("-----")
+        
+    lines.append("Baris Baru")
+    for line in lines:
+        print(line.strip())    
+
+```
+
+Mode Read / Write File di Python:
+
+1. **Mode Baca (`"r"`):**
+   - Mode `"r"` digunakan untuk membaca isi dari sebuah file.
+   - Ini merupakan mode default jika tidak menyebutkan mode secara eksplisit.
+   - Jika file tidak ditemukan, akan menimbulkan `FileNotFoundError`.
+   - Contoh: `with open("contoh.txt", "r") as file:`
+
+2. **Mode Tulis (`"w"`):**
+   - Mode `"w"` digunakan untuk menulis ke sebuah file.
+   - Jika file sudah ada, akan menghapus isi file dan membuat file kosong.
+   - Jika file tidak ada, akan membuat file baru.
+   - Contoh: `with open("output.txt", "w") as file:`
+
+3. **Mode Tambah (`"a"`):**
+   - Mode `"a"` digunakan untuk menambahkan data ke akhir file.
+   - Jika file sudah ada, akan menulis pada bagian akhir file.
+   - Jika file tidak ada, akan membuat file baru.
+   - Contoh: `with open("log.txt", "a") as file:`
+
+### Latihan Soal 2
+
+- [Nested Loops](question_nested_asteriks.md)
+- [Nested Loops Challenge (Optional)](question_nested_optional.md)
+- [Notes App](question_note_app.md)
 
 ## TODO: Setup Python Development Environment
