@@ -550,4 +550,87 @@ Mode Read / Write File di Python:
 - [Nested Loops Challenge (Optional)](question_nested_optional.md)
 - [Notes App](question_note_app.md)
 
-## TODO: Setup Python Development Environment
+## Setup Python Development Environment
+
+`pyenv` adalah tools untuk mengelola beberapa versi Python sekaligus. Ini memungkinkan untuk dengan mudah beralih antara versi Python yang berbeda dan mengelola dependensi untuk proyek-proyek yang berbeda.
+
+### Instalasi
+
+#### For Mac/Linux
+
+[https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
+
+#### For Windows
+
+[https://github.com/pyenv-win/pyenv-win](https://github.com/pyenv-win/pyenv-win)
+
+### Verifikasi instalasi
+
+```bash
+pyenv --version
+```
+
+### Penggunaan
+
+#### 1. Menginstal Versi Python
+
+```bash
+# Daftar versi Python yang tersedia
+pyenv install --list
+
+# Instal versi Python tertentu
+pyenv install 3.9.5
+```
+
+#### 2. Menetapkan Versi Python Global
+
+```bash
+# Tetapkan versi Python sebagai default global
+pyenv global 3.9.5
+```
+
+#### 3. Menetapkan Versi Python Lokal (per direktori)
+
+```bash
+# Tetapkan versi Python untuk direktori tertentu
+pyenv local 3.8.2
+```
+
+#### 4. Menghapus Instalasi Versi Python
+
+```bash
+# Menghapus versi Python tertentu
+pyenv uninstall 3.8.2
+```
+
+
+#### 5. Lingkungan Virtual dengan `virtualenv`
+
+
+```bash
+# Instal plugin virtualenv
+pip install virtualenv
+```
+
+```bash
+# Buat lingkungan virtual
+virtualenv venv
+
+# Aktifkan lingkungan virtual
+# Windows
+venv\Scripts\activate
+
+# Mac / Linux 
+source venv/bin/activate
+```
+
+#### 6. Menonaktifkan Lingkungan Virtual
+
+```bash
+# Menonaktifkan lingkungan virtual saat ini
+# Windows
+deactivate
+# Mac / Linux
+exit
+```
+
